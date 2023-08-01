@@ -6,3 +6,16 @@
 //Mi nombre es Juan y tengo 34 anios
 //Mi nombre es Luis y tengo 25 anios
 //Nota: Usar FOR
+
+const estudiantes = [{ nombre: "Juan", edad: 34 }, { nombre: "Luis", edad: 25 }];
+
+function informacion(estudiantes) {
+  for (let i = 0; i < estudiantes.length; i++) {
+    const estudiante = estudiantes[i];
+    console.log(`Mi nombre es ${estudiante.nombre} y tengo ${estudiante.edad} años`);
+  }
+}
+
+
+informacion(estudiantes);
+
