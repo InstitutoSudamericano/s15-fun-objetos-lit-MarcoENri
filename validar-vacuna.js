@@ -23,9 +23,9 @@ function validarVacuna(persona) {
   }
   
  
-  const persona1 = { nombre: 'Marco', edad: 13 };
+  const persona1 = { nombre: 'Marco', edad: 4 };
   const persona2 = { nombre: 'Cristina', edad: 25 };
-  const persona3 = { nombre: 'Pablo', edad: 55 };
+  const persona3 = { nombre: 'Pablo', edad: 79 };
   
   console.log(validarVacuna(persona1)); 
   console.log(validarVacuna(persona2)); 
